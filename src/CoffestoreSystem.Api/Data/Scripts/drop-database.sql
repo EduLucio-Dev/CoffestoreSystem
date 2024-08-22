@@ -1,0 +1,8 @@
+USE [master]
+GO
+
+ALTER DATABASE [coffestore-dev] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+
+DROP DATABASE [coffestore-dev];
+GO
